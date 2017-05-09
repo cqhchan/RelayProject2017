@@ -1,0 +1,532 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		26A295B51EC1AFF800399EBC /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 26A295B41EC1AFF800399EBC /* AppDelegate.swift */; };
+		26A295B71EC1AFF800399EBC /* FirstViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 26A295B61EC1AFF800399EBC /* FirstViewController.swift */; };
+		26A295B91EC1AFF800399EBC /* SecondViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 26A295B81EC1AFF800399EBC /* SecondViewController.swift */; };
+		26A295BC1EC1AFF800399EBC /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 26A295BA1EC1AFF800399EBC /* Main.storyboard */; };
+		26A295BE1EC1AFF800399EBC /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 26A295BD1EC1AFF800399EBC /* Assets.xcassets */; };
+		26A295C11EC1AFF800399EBC /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 26A295BF1EC1AFF800399EBC /* LaunchScreen.storyboard */; };
+		26A295CC1EC1AFF800399EBC /* Relay_3_0Tests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 26A295CB1EC1AFF800399EBC /* Relay_3_0Tests.swift */; };
+		26A295D71EC1AFF800399EBC /* Relay_3_0UITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 26A295D61EC1AFF800399EBC /* Relay_3_0UITests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		26A295C81EC1AFF800399EBC /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 26A295A91EC1AFF800399EBC /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 26A295B01EC1AFF800399EBC;
+			remoteInfo = "Relay 3.0";
+		};
+		26A295D31EC1AFF800399EBC /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 26A295A91EC1AFF800399EBC /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 26A295B01EC1AFF800399EBC;
+			remoteInfo = "Relay 3.0";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		26A295B11EC1AFF800399EBC /* Relay 3.0.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Relay 3.0.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		26A295B41EC1AFF800399EBC /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		26A295B61EC1AFF800399EBC /* FirstViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FirstViewController.swift; sourceTree = "<group>"; };
+		26A295B81EC1AFF800399EBC /* SecondViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SecondViewController.swift; sourceTree = "<group>"; };
+		26A295BB1EC1AFF800399EBC /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		26A295BD1EC1AFF800399EBC /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		26A295C01EC1AFF800399EBC /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		26A295C21EC1AFF800399EBC /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		26A295C71EC1AFF800399EBC /* Relay 3.0Tests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Relay 3.0Tests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		26A295CB1EC1AFF800399EBC /* Relay_3_0Tests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Relay_3_0Tests.swift; sourceTree = "<group>"; };
+		26A295CD1EC1AFF800399EBC /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		26A295D21EC1AFF800399EBC /* Relay 3.0UITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Relay 3.0UITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		26A295D61EC1AFF800399EBC /* Relay_3_0UITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Relay_3_0UITests.swift; sourceTree = "<group>"; };
+		26A295D81EC1AFF800399EBC /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		26A295AE1EC1AFF800399EBC /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		26A295C41EC1AFF800399EBC /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		26A295CF1EC1AFF800399EBC /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		26A295A81EC1AFF800399EBC = {
+			isa = PBXGroup;
+			children = (
+				26A295B31EC1AFF800399EBC /* Relay 3.0 */,
+				26A295CA1EC1AFF800399EBC /* Relay 3.0Tests */,
+				26A295D51EC1AFF800399EBC /* Relay 3.0UITests */,
+				26A295B21EC1AFF800399EBC /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		26A295B21EC1AFF800399EBC /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				26A295B11EC1AFF800399EBC /* Relay 3.0.app */,
+				26A295C71EC1AFF800399EBC /* Relay 3.0Tests.xctest */,
+				26A295D21EC1AFF800399EBC /* Relay 3.0UITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		26A295B31EC1AFF800399EBC /* Relay 3.0 */ = {
+			isa = PBXGroup;
+			children = (
+				26A295B41EC1AFF800399EBC /* AppDelegate.swift */,
+				26A295B61EC1AFF800399EBC /* FirstViewController.swift */,
+				26A295B81EC1AFF800399EBC /* SecondViewController.swift */,
+				26A295BA1EC1AFF800399EBC /* Main.storyboard */,
+				26A295BD1EC1AFF800399EBC /* Assets.xcassets */,
+				26A295BF1EC1AFF800399EBC /* LaunchScreen.storyboard */,
+				26A295C21EC1AFF800399EBC /* Info.plist */,
+			);
+			path = "Relay 3.0";
+			sourceTree = "<group>";
+		};
+		26A295CA1EC1AFF800399EBC /* Relay 3.0Tests */ = {
+			isa = PBXGroup;
+			children = (
+				26A295CB1EC1AFF800399EBC /* Relay_3_0Tests.swift */,
+				26A295CD1EC1AFF800399EBC /* Info.plist */,
+			);
+			path = "Relay 3.0Tests";
+			sourceTree = "<group>";
+		};
+		26A295D51EC1AFF800399EBC /* Relay 3.0UITests */ = {
+			isa = PBXGroup;
+			children = (
+				26A295D61EC1AFF800399EBC /* Relay_3_0UITests.swift */,
+				26A295D81EC1AFF800399EBC /* Info.plist */,
+			);
+			path = "Relay 3.0UITests";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		26A295B01EC1AFF800399EBC /* Relay 3.0 */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 26A295DB1EC1AFF800399EBC /* Build configuration list for PBXNativeTarget "Relay 3.0" */;
+			buildPhases = (
+				26A295AD1EC1AFF800399EBC /* Sources */,
+				26A295AE1EC1AFF800399EBC /* Frameworks */,
+				26A295AF1EC1AFF800399EBC /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Relay 3.0";
+			productName = "Relay 3.0";
+			productReference = 26A295B11EC1AFF800399EBC /* Relay 3.0.app */;
+			productType = "com.apple.product-type.application";
+		};
+		26A295C61EC1AFF800399EBC /* Relay 3.0Tests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 26A295DE1EC1AFF800399EBC /* Build configuration list for PBXNativeTarget "Relay 3.0Tests" */;
+			buildPhases = (
+				26A295C31EC1AFF800399EBC /* Sources */,
+				26A295C41EC1AFF800399EBC /* Frameworks */,
+				26A295C51EC1AFF800399EBC /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				26A295C91EC1AFF800399EBC /* PBXTargetDependency */,
+			);
+			name = "Relay 3.0Tests";
+			productName = "Relay 3.0Tests";
+			productReference = 26A295C71EC1AFF800399EBC /* Relay 3.0Tests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		26A295D11EC1AFF800399EBC /* Relay 3.0UITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 26A295E11EC1AFF800399EBC /* Build configuration list for PBXNativeTarget "Relay 3.0UITests" */;
+			buildPhases = (
+				26A295CE1EC1AFF800399EBC /* Sources */,
+				26A295CF1EC1AFF800399EBC /* Frameworks */,
+				26A295D01EC1AFF800399EBC /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				26A295D41EC1AFF800399EBC /* PBXTargetDependency */,
+			);
+			name = "Relay 3.0UITests";
+			productName = "Relay 3.0UITests";
+			productReference = 26A295D21EC1AFF800399EBC /* Relay 3.0UITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		26A295A91EC1AFF800399EBC /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0820;
+				LastUpgradeCheck = 0820;
+				ORGANIZATIONNAME = "Chan Qing Hong";
+				TargetAttributes = {
+					26A295B01EC1AFF800399EBC = {
+						CreatedOnToolsVersion = 8.2.1;
+						ProvisioningStyle = Automatic;
+					};
+					26A295C61EC1AFF800399EBC = {
+						CreatedOnToolsVersion = 8.2.1;
+						ProvisioningStyle = Automatic;
+						TestTargetID = 26A295B01EC1AFF800399EBC;
+					};
+					26A295D11EC1AFF800399EBC = {
+						CreatedOnToolsVersion = 8.2.1;
+						ProvisioningStyle = Automatic;
+						TestTargetID = 26A295B01EC1AFF800399EBC;
+					};
+				};
+			};
+			buildConfigurationList = 26A295AC1EC1AFF800399EBC /* Build configuration list for PBXProject "Relay 3.0" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 26A295A81EC1AFF800399EBC;
+			productRefGroup = 26A295B21EC1AFF800399EBC /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				26A295B01EC1AFF800399EBC /* Relay 3.0 */,
+				26A295C61EC1AFF800399EBC /* Relay 3.0Tests */,
+				26A295D11EC1AFF800399EBC /* Relay 3.0UITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		26A295AF1EC1AFF800399EBC /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				26A295C11EC1AFF800399EBC /* LaunchScreen.storyboard in Resources */,
+				26A295BE1EC1AFF800399EBC /* Assets.xcassets in Resources */,
+				26A295BC1EC1AFF800399EBC /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		26A295C51EC1AFF800399EBC /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		26A295D01EC1AFF800399EBC /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		26A295AD1EC1AFF800399EBC /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				26A295B91EC1AFF800399EBC /* SecondViewController.swift in Sources */,
+				26A295B51EC1AFF800399EBC /* AppDelegate.swift in Sources */,
+				26A295B71EC1AFF800399EBC /* FirstViewController.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		26A295C31EC1AFF800399EBC /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				26A295CC1EC1AFF800399EBC /* Relay_3_0Tests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		26A295CE1EC1AFF800399EBC /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				26A295D71EC1AFF800399EBC /* Relay_3_0UITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		26A295C91EC1AFF800399EBC /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 26A295B01EC1AFF800399EBC /* Relay 3.0 */;
+			targetProxy = 26A295C81EC1AFF800399EBC /* PBXContainerItemProxy */;
+		};
+		26A295D41EC1AFF800399EBC /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 26A295B01EC1AFF800399EBC /* Relay 3.0 */;
+			targetProxy = 26A295D31EC1AFF800399EBC /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		26A295BA1EC1AFF800399EBC /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				26A295BB1EC1AFF800399EBC /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		26A295BF1EC1AFF800399EBC /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				26A295C01EC1AFF800399EBC /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		26A295D91EC1AFF800399EBC /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.2;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		26A295DA1EC1AFF800399EBC /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		26A295DC1EC1AFF800399EBC /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = "Relay 3.0/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "relay.Relay-3-0";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+			};
+			name = Debug;
+		};
+		26A295DD1EC1AFF800399EBC /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = "Relay 3.0/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "relay.Relay-3-0";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+			};
+			name = Release;
+		};
+		26A295DF1EC1AFF800399EBC /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = "Relay 3.0Tests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "relay.Relay-3-0Tests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Relay 3.0.app/Relay 3.0";
+			};
+			name = Debug;
+		};
+		26A295E01EC1AFF800399EBC /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = "Relay 3.0Tests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "relay.Relay-3-0Tests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Relay 3.0.app/Relay 3.0";
+			};
+			name = Release;
+		};
+		26A295E21EC1AFF800399EBC /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				INFOPLIST_FILE = "Relay 3.0UITests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "relay.Relay-3-0UITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_TARGET_NAME = "Relay 3.0";
+			};
+			name = Debug;
+		};
+		26A295E31EC1AFF800399EBC /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				INFOPLIST_FILE = "Relay 3.0UITests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "relay.Relay-3-0UITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_TARGET_NAME = "Relay 3.0";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		26A295AC1EC1AFF800399EBC /* Build configuration list for PBXProject "Relay 3.0" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				26A295D91EC1AFF800399EBC /* Debug */,
+				26A295DA1EC1AFF800399EBC /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		26A295DB1EC1AFF800399EBC /* Build configuration list for PBXNativeTarget "Relay 3.0" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				26A295DC1EC1AFF800399EBC /* Debug */,
+				26A295DD1EC1AFF800399EBC /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		26A295DE1EC1AFF800399EBC /* Build configuration list for PBXNativeTarget "Relay 3.0Tests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				26A295DF1EC1AFF800399EBC /* Debug */,
+				26A295E01EC1AFF800399EBC /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		26A295E11EC1AFF800399EBC /* Build configuration list for PBXNativeTarget "Relay 3.0UITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				26A295E21EC1AFF800399EBC /* Debug */,
+				26A295E31EC1AFF800399EBC /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 26A295A91EC1AFF800399EBC /* Project object */;
+}
