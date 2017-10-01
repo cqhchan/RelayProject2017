@@ -7,14 +7,31 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		262474A51ECA18190006DA82 /* DatabaseController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 262474A41ECA18190006DA82 /* DatabaseController.swift */; };
+		2639A7A51EC33C1C007BB6E6 /* MapKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 2639A7A41EC33C1C007BB6E6 /* MapKit.framework */; };
+		2639A7A71EC33D33007BB6E6 /* CoreData.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 2639A7A61EC33D33007BB6E6 /* CoreData.framework */; };
+		2646123F1EC9AFF9000FD2D8 /* CoreLocation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 2646123E1EC9AFF9000FD2D8 /* CoreLocation.framework */; };
+		269C2D701EC2242000EA75A8 /* NavigationViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 269C2D6F1EC2242000EA75A8 /* NavigationViewController.swift */; };
 		26A295B51EC1AFF800399EBC /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 26A295B41EC1AFF800399EBC /* AppDelegate.swift */; };
 		26A295B71EC1AFF800399EBC /* FirstViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 26A295B61EC1AFF800399EBC /* FirstViewController.swift */; };
-		26A295B91EC1AFF800399EBC /* SecondViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 26A295B81EC1AFF800399EBC /* SecondViewController.swift */; };
+		26A295B91EC1AFF800399EBC /* MapViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 26A295B81EC1AFF800399EBC /* MapViewController.swift */; };
 		26A295BC1EC1AFF800399EBC /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 26A295BA1EC1AFF800399EBC /* Main.storyboard */; };
 		26A295BE1EC1AFF800399EBC /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 26A295BD1EC1AFF800399EBC /* Assets.xcassets */; };
 		26A295C11EC1AFF800399EBC /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 26A295BF1EC1AFF800399EBC /* LaunchScreen.storyboard */; };
 		26A295CC1EC1AFF800399EBC /* Relay_3_0Tests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 26A295CB1EC1AFF800399EBC /* Relay_3_0Tests.swift */; };
 		26A295D71EC1AFF800399EBC /* Relay_3_0UITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 26A295D61EC1AFF800399EBC /* Relay_3_0UITests.swift */; };
+		26E868571EC1B11B006C48C4 /* HistoryViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 26E8684C1EC1B11B006C48C4 /* HistoryViewController.swift */; };
+		26E868581EC1B11B006C48C4 /* Login.swift in Sources */ = {isa = PBXBuildFile; fileRef = 26E8684D1EC1B11B006C48C4 /* Login.swift */; };
+		26E868591EC1B11B006C48C4 /* PaymentsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 26E8684E1EC1B11B006C48C4 /* PaymentsViewController.swift */; };
+		26E8685A1EC1B11B006C48C4 /* ProfileViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 26E8684F1EC1B11B006C48C4 /* ProfileViewController.swift */; };
+		26E8685B1EC1B11B006C48C4 /* signup.swift in Sources */ = {isa = PBXBuildFile; fileRef = 26E868501EC1B11B006C48C4 /* signup.swift */; };
+		26E8685C1EC1B11B006C48C4 /* SWRevealViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 26E868521EC1B11B006C48C4 /* SWRevealViewController.m */; };
+		26E8685D1EC1B11B006C48C4 /* TableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 26E868531EC1B11B006C48C4 /* TableViewCell.swift */; };
+		26E8685E1EC1B11B006C48C4 /* TableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 26E868541EC1B11B006C48C4 /* TableViewController.swift */; };
+		26E8685F1EC1B11B006C48C4 /* TabViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 26E868551EC1B11B006C48C4 /* TabViewController.swift */; };
+		26E868601EC1B11B006C48C4 /* ThirdViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 26E868561EC1B11B006C48C4 /* ThirdViewController.swift */; };
+		26FEC1C31EC4528400FC5E71 /* libsqlite3.tbd in Frameworks */ = {isa = PBXBuildFile; fileRef = 26FEC1C21EC4528400FC5E71 /* libsqlite3.tbd */; };
+		26FEC1C51EC4528D00FC5E71 /* libz.tbd in Frameworks */ = {isa = PBXBuildFile; fileRef = 26FEC1C41EC4528D00FC5E71 /* libz.tbd */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -35,10 +52,15 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		262474A41ECA18190006DA82 /* DatabaseController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = DatabaseController.swift; path = ../DatabaseController.swift; sourceTree = "<group>"; };
+		2639A7A41EC33C1C007BB6E6 /* MapKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = MapKit.framework; path = System/Library/Frameworks/MapKit.framework; sourceTree = SDKROOT; };
+		2639A7A61EC33D33007BB6E6 /* CoreData.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreData.framework; path = System/Library/Frameworks/CoreData.framework; sourceTree = SDKROOT; };
+		2646123E1EC9AFF9000FD2D8 /* CoreLocation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreLocation.framework; path = System/Library/Frameworks/CoreLocation.framework; sourceTree = SDKROOT; };
+		269C2D6F1EC2242000EA75A8 /* NavigationViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = NavigationViewController.swift; sourceTree = "<group>"; };
 		26A295B11EC1AFF800399EBC /* Relay 3.0.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Relay 3.0.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		26A295B41EC1AFF800399EBC /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		26A295B61EC1AFF800399EBC /* FirstViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FirstViewController.swift; sourceTree = "<group>"; };
-		26A295B81EC1AFF800399EBC /* SecondViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SecondViewController.swift; sourceTree = "<group>"; };
+		26A295B81EC1AFF800399EBC /* MapViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MapViewController.swift; sourceTree = "<group>"; };
 		26A295BB1EC1AFF800399EBC /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		26A295BD1EC1AFF800399EBC /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		26A295C01EC1AFF800399EBC /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
@@ -49,6 +71,20 @@
 		26A295D21EC1AFF800399EBC /* Relay 3.0UITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Relay 3.0UITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		26A295D61EC1AFF800399EBC /* Relay_3_0UITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Relay_3_0UITests.swift; sourceTree = "<group>"; };
 		26A295D81EC1AFF800399EBC /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		26E8684B1EC1B11B006C48C4 /* Relay 3.0-Bridging-Header.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "Relay 3.0-Bridging-Header.h"; sourceTree = "<group>"; };
+		26E8684C1EC1B11B006C48C4 /* HistoryViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = HistoryViewController.swift; sourceTree = "<group>"; };
+		26E8684D1EC1B11B006C48C4 /* Login.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Login.swift; sourceTree = "<group>"; };
+		26E8684E1EC1B11B006C48C4 /* PaymentsViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PaymentsViewController.swift; sourceTree = "<group>"; };
+		26E8684F1EC1B11B006C48C4 /* ProfileViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ProfileViewController.swift; sourceTree = "<group>"; };
+		26E868501EC1B11B006C48C4 /* signup.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = signup.swift; sourceTree = "<group>"; };
+		26E868511EC1B11B006C48C4 /* SWRevealViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SWRevealViewController.h; sourceTree = "<group>"; };
+		26E868521EC1B11B006C48C4 /* SWRevealViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SWRevealViewController.m; sourceTree = "<group>"; };
+		26E868531EC1B11B006C48C4 /* TableViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TableViewCell.swift; sourceTree = "<group>"; };
+		26E868541EC1B11B006C48C4 /* TableViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TableViewController.swift; sourceTree = "<group>"; };
+		26E868551EC1B11B006C48C4 /* TabViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TabViewController.swift; sourceTree = "<group>"; };
+		26E868561EC1B11B006C48C4 /* ThirdViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ThirdViewController.swift; sourceTree = "<group>"; };
+		26FEC1C21EC4528400FC5E71 /* libsqlite3.tbd */ = {isa = PBXFileReference; lastKnownFileType = "sourcecode.text-based-dylib-definition"; name = libsqlite3.tbd; path = usr/lib/libsqlite3.tbd; sourceTree = SDKROOT; };
+		26FEC1C41EC4528D00FC5E71 /* libz.tbd */ = {isa = PBXFileReference; lastKnownFileType = "sourcecode.text-based-dylib-definition"; name = libz.tbd; path = usr/lib/libz.tbd; sourceTree = SDKROOT; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -56,6 +92,11 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				2646123F1EC9AFF9000FD2D8 /* CoreLocation.framework in Frameworks */,
+				26FEC1C51EC4528D00FC5E71 /* libz.tbd in Frameworks */,
+				26FEC1C31EC4528400FC5E71 /* libsqlite3.tbd in Frameworks */,
+				2639A7A71EC33D33007BB6E6 /* CoreData.framework in Frameworks */,
+				2639A7A51EC33C1C007BB6E6 /* MapKit.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -76,6 +117,18 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		2639A7A31EC33C1C007BB6E6 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				2646123E1EC9AFF9000FD2D8 /* CoreLocation.framework */,
+				26FEC1C41EC4528D00FC5E71 /* libz.tbd */,
+				26FEC1C21EC4528400FC5E71 /* libsqlite3.tbd */,
+				2639A7A61EC33D33007BB6E6 /* CoreData.framework */,
+				2639A7A41EC33C1C007BB6E6 /* MapKit.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
 		26A295A81EC1AFF800399EBC = {
 			isa = PBXGroup;
 			children = (
@@ -83,6 +136,7 @@
 				26A295CA1EC1AFF800399EBC /* Relay 3.0Tests */,
 				26A295D51EC1AFF800399EBC /* Relay 3.0UITests */,
 				26A295B21EC1AFF800399EBC /* Products */,
+				2639A7A31EC33C1C007BB6E6 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -99,13 +153,16 @@
 		26A295B31EC1AFF800399EBC /* Relay 3.0 */ = {
 			isa = PBXGroup;
 			children = (
+				26E868661EC1B1B5006C48C4 /* Login */,
+				26E868651EC1B1AA006C48C4 /* SWR */,
+				26E868641EC1B198006C48C4 /* tabbar */,
+				26E868621EC1B162006C48C4 /* Sidebar */,
 				26A295B41EC1AFF800399EBC /* AppDelegate.swift */,
-				26A295B61EC1AFF800399EBC /* FirstViewController.swift */,
-				26A295B81EC1AFF800399EBC /* SecondViewController.swift */,
 				26A295BA1EC1AFF800399EBC /* Main.storyboard */,
 				26A295BD1EC1AFF800399EBC /* Assets.xcassets */,
 				26A295BF1EC1AFF800399EBC /* LaunchScreen.storyboard */,
 				26A295C21EC1AFF800399EBC /* Info.plist */,
+				262474A41ECA18190006DA82 /* DatabaseController.swift */,
 			);
 			path = "Relay 3.0";
 			sourceTree = "<group>";
@@ -126,6 +183,49 @@
 				26A295D81EC1AFF800399EBC /* Info.plist */,
 			);
 			path = "Relay 3.0UITests";
+			sourceTree = "<group>";
+		};
+		26E868621EC1B162006C48C4 /* Sidebar */ = {
+			isa = PBXGroup;
+			children = (
+				26E8684C1EC1B11B006C48C4 /* HistoryViewController.swift */,
+				26E8684E1EC1B11B006C48C4 /* PaymentsViewController.swift */,
+				26E8684F1EC1B11B006C48C4 /* ProfileViewController.swift */,
+				26E868531EC1B11B006C48C4 /* TableViewCell.swift */,
+				26E868541EC1B11B006C48C4 /* TableViewController.swift */,
+			);
+			name = Sidebar;
+			sourceTree = "<group>";
+		};
+		26E868641EC1B198006C48C4 /* tabbar */ = {
+			isa = PBXGroup;
+			children = (
+				26E868551EC1B11B006C48C4 /* TabViewController.swift */,
+				26E868561EC1B11B006C48C4 /* ThirdViewController.swift */,
+				26A295B61EC1AFF800399EBC /* FirstViewController.swift */,
+				26A295B81EC1AFF800399EBC /* MapViewController.swift */,
+				269C2D6F1EC2242000EA75A8 /* NavigationViewController.swift */,
+			);
+			name = tabbar;
+			sourceTree = "<group>";
+		};
+		26E868651EC1B1AA006C48C4 /* SWR */ = {
+			isa = PBXGroup;
+			children = (
+				26E868511EC1B11B006C48C4 /* SWRevealViewController.h */,
+				26E868521EC1B11B006C48C4 /* SWRevealViewController.m */,
+				26E8684B1EC1B11B006C48C4 /* Relay 3.0-Bridging-Header.h */,
+			);
+			name = SWR;
+			sourceTree = "<group>";
+		};
+		26E868661EC1B1B5006C48C4 /* Login */ = {
+			isa = PBXGroup;
+			children = (
+				26E8684D1EC1B11B006C48C4 /* Login.swift */,
+				26E868501EC1B11B006C48C4 /* signup.swift */,
+			);
+			name = Login;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -196,7 +296,13 @@
 				TargetAttributes = {
 					26A295B01EC1AFF800399EBC = {
 						CreatedOnToolsVersion = 8.2.1;
+						LastSwiftMigration = 0820;
 						ProvisioningStyle = Automatic;
+						SystemCapabilities = {
+							com.apple.Maps.iOS = {
+								enabled = 1;
+							};
+						};
 					};
 					26A295C61EC1AFF800399EBC = {
 						CreatedOnToolsVersion = 8.2.1;
@@ -262,9 +368,21 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				26A295B91EC1AFF800399EBC /* SecondViewController.swift in Sources */,
+				26E8685F1EC1B11B006C48C4 /* TabViewController.swift in Sources */,
+				26A295B91EC1AFF800399EBC /* MapViewController.swift in Sources */,
+				26E868581EC1B11B006C48C4 /* Login.swift in Sources */,
 				26A295B51EC1AFF800399EBC /* AppDelegate.swift in Sources */,
+				26E868591EC1B11B006C48C4 /* PaymentsViewController.swift in Sources */,
+				262474A51ECA18190006DA82 /* DatabaseController.swift in Sources */,
+				26E8685A1EC1B11B006C48C4 /* ProfileViewController.swift in Sources */,
+				26E8685D1EC1B11B006C48C4 /* TableViewCell.swift in Sources */,
+				26E8685E1EC1B11B006C48C4 /* TableViewController.swift in Sources */,
+				26E8685C1EC1B11B006C48C4 /* SWRevealViewController.m in Sources */,
+				26E8685B1EC1B11B006C48C4 /* signup.swift in Sources */,
 				26A295B71EC1AFF800399EBC /* FirstViewController.swift in Sources */,
+				26E868571EC1B11B006C48C4 /* HistoryViewController.swift in Sources */,
+				269C2D701EC2242000EA75A8 /* NavigationViewController.swift in Sources */,
+				26E868601EC1B11B006C48C4 /* ThirdViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -416,10 +534,13 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CLANG_ENABLE_MODULES = YES;
 				INFOPLIST_FILE = "Relay 3.0/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = "relay.Relay-3-0";
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_OBJC_BRIDGING_HEADER = "Relay 3.0/Relay 3.0-Bridging-Header.h";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
 				SWIFT_VERSION = 3.0;
 			};
 			name = Debug;
@@ -428,10 +549,12 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CLANG_ENABLE_MODULES = YES;
 				INFOPLIST_FILE = "Relay 3.0/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = "relay.Relay-3-0";
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_OBJC_BRIDGING_HEADER = "Relay 3.0/Relay 3.0-Bridging-Header.h";
 				SWIFT_VERSION = 3.0;
 			};
 			name = Release;
@@ -509,6 +632,7 @@
 				26A295DD1EC1AFF800399EBC /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		26A295DE1EC1AFF800399EBC /* Build configuration list for PBXNativeTarget "Relay 3.0Tests" */ = {
 			isa = XCConfigurationList;
@@ -517,6 +641,7 @@
 				26A295E01EC1AFF800399EBC /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		26A295E11EC1AFF800399EBC /* Build configuration list for PBXNativeTarget "Relay 3.0UITests" */ = {
 			isa = XCConfigurationList;
@@ -525,6 +650,7 @@
 				26A295E31EC1AFF800399EBC /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};

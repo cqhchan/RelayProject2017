@@ -1,8 +1,8 @@
 //
 //  FirstViewController.swift
-//  Relay 3.0
+//  relay 2.0
 //
-//  Created by Chan Qing Hong on 9/5/17.
+//  Created by Chan Qing Hong on 8/5/17.
 //  Copyright © 2017 Chan Qing Hong. All rights reserved.
 //
 

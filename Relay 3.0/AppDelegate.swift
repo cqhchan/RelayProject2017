@@ -1,8 +1,8 @@
 //
 //  AppDelegate.swift
-//  Relay 3.0
+//  relay 2.0
 //
-//  Created by Chan Qing Hong on 9/5/17.
+//  Created by Chan Qing Hong on 8/5/17.
 //  Copyright © 2017 Chan Qing Hong. All rights reserved.
 //
 
@@ -15,11 +15,15 @@ class AppDelegate: UIResponder, UIApplicationDelegate {
 
 
     func application(_ application: UIApplication, didFinishLaunchingWithOptions launchOptions: [UIApplicationLaunchOptionsKey: Any]?) -> Bool {
-        // Override point for customization after application launch.
+        
+        
+        
+        
         return true
-    }
+    
 
-    func applicationWillResignActive(_ application: UIApplication) {
+    }
+        func applicationWillResignActive(_ application: UIApplication) {
         // Sent when the application is about to move from active to inactive state. This can occur for certain types of temporary interruptions (such as an incoming phone call or SMS message) or when the user quits the application and it begins the transition to the background state.
         // Use this method to pause ongoing tasks, disable timers, and invalidate graphics rendering callbacks. Games should use this method to pause the game.
     }
@@ -39,8 +43,48 @@ class AppDelegate: UIResponder, UIApplicationDelegate {
 
     func applicationWillTerminate(_ application: UIApplication) {
         // Called when the application is about to terminate. Save data if appropriate. See also applicationDidEnterBackground:.
+        
+        
     }
 
 
+}
+extension UIViewController {
+    
+  
+    func textFieldShouldReturn(_ textField: UITextField) -> Bool {
+        dismissKeyboard()
+        return true
+    }
+    func hideKeyboardWhenTappedAround() {
+        let pan: UIPanGestureRecognizer = UIPanGestureRecognizer(target: self, action: #selector(UIViewController.dismissKeyboard))
+        let tap: UITapGestureRecognizer = UITapGestureRecognizer(target: self, action: #selector(UIViewController.dismissKeyboard))
+        let swipe: UISwipeGestureRecognizer = UISwipeGestureRecognizer(target: self, action: #selector(UIViewController.dismissKeyboard))
+        
+        tap.cancelsTouchesInView = false
+        pan.cancelsTouchesInView = false
+        swipe.cancelsTouchesInView = false
+        view.addGestureRecognizer(swipe)
+        view.addGestureRecognizer(tap)
+        view.addGestureRecognizer(pan)
+    }
+    
+    func dismissKeyboard() {
+        view.endEditing(true)
+    }
+    func displayalert (userMessage:String)
+        
+    {
+        //create alert message
+        let myAlert = UIAlertController(title: "", message: userMessage, preferredStyle: UIAlertControllerStyle.alert);
+        
+        // create buttons
+        myAlert.addAction(UIAlertAction(title: "Ok", style: UIAlertActionStyle.default, handler: {(action) in myAlert.dismiss(animated: true, completion: nil)}))
+        
+        
+        self.present(myAlert, animated: true, completion: nil)
+        
+        
+    }
 }
 
