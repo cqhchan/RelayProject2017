@@ -1,0 +1,14 @@
+# Relay 3.0
+
+Final Version (incomplete)
+
+* this is a Swift 3 Ios10 Mobile Payment + Delivery Payment System. 
+*To be combined with Relay-PaymentDemo under the Payments Tab.
+*payment system would require no login to work (more in Relay-PaymentDemo Developers Guide
+
+
+*Signup and Login controller currently not active as server is down.
+
+*tabView controller brings out SwRevealController
+
+**Application was not completed as Changes in govenment policies forced us to abandon the idea 
