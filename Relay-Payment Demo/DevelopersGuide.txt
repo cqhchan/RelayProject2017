@@ -1,0 +1,13 @@
+# Relay-PaymentDemo
+
+Demo Version
+
+* this is a Swift 3 Ios10 Mobile Payment Demo 
+*To be combined with Relay 3.0 under the Payments Tab.
+
+*Fully Functional though it requires an Apple Developers account with Merchant ID to function.
+*Developed for Iphone 7 Currently.
+
+*Payment System Uses Current apple pay interface to make payments through QR codes, removing the need for creation of account(assuming you have an apple account which most people do). 
+
+*allows payments to be done is 5 seconds. 
