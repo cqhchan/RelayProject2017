@@ -55,24 +55,24 @@
                                                 <rect key="frame" x="0.0" y="-4" width="374" height="619"/>
                                                 <subviews>
                                                     <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Order NOW " textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="3JX-Oy-mmR">
-                                                        <rect key="frame" x="140" y="0.0" width="94" height="58"/>
+                                                        <rect key="frame" x="140" y="0.0" width="94" height="53"/>
                                                         <fontDescription key="fontDescription" type="system" pointSize="17"/>
                                                         <nil key="textColor"/>
                                                         <nil key="highlightedColor"/>
                                                     </label>
                                                     <stackView opaque="NO" contentMode="scaleToFill" distribution="fillProportionally" alignment="center" translatesAutoresizingMaskIntoConstraints="NO" id="8vQ-p6-t9j">
-                                                        <rect key="frame" x="0.0" y="58" width="374" height="561"/>
+                                                        <rect key="frame" x="0.0" y="53" width="374" height="566"/>
                                                         <subviews>
                                                             <stackView opaque="NO" contentMode="scaleToFill" axis="vertical" translatesAutoresizingMaskIntoConstraints="NO" id="Rrv-E0-6tq">
-                                                                <rect key="frame" x="0.0" y="0.0" width="187" height="561"/>
+                                                                <rect key="frame" x="0.0" y="0.0" width="189" height="566"/>
                                                                 <subviews>
                                                                     <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="4Nm-LU-4fu">
-                                                                        <rect key="frame" x="0.0" y="0.0" width="187" height="187"/>
+                                                                        <rect key="frame" x="0.0" y="0.0" width="189" height="189"/>
                                                                         <color key="backgroundColor" red="0.0" green="0.47843137250000001" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                                                         <constraints>
                                                                             <constraint firstAttribute="width" secondItem="4Nm-LU-4fu" secondAttribute="height" multiplier="1:1" id="6rv-5A-m0G"/>
                                                                         </constraints>
-                                                                        <state key="normal" title="Button">
+                                                                        <state key="normal" title="FastFoo">
                                                                             <color key="titleColor" red="0.84705882349999995" green="0.84705882349999995" blue="0.84705882349999995" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
                                                                         </state>
                                                                         <connections>
@@ -80,24 +80,24 @@
                                                                         </connections>
                                                                     </button>
                                                                     <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="DNy-Cm-VvQ">
-                                                                        <rect key="frame" x="0.0" y="187" width="187" height="187"/>
+                                                                        <rect key="frame" x="0.0" y="189" width="189" height="189"/>
                                                                         <color key="backgroundColor" red="0.40764107170000002" green="1" blue="0.94458017110000003" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
                                                                         <constraints>
                                                                             <constraint firstAttribute="width" secondItem="DNy-Cm-VvQ" secondAttribute="height" multiplier="1:1" id="XEr-Ah-bmP"/>
                                                                         </constraints>
                                                                         <color key="tintColor" white="0.66666666666666663" alpha="1" colorSpace="calibratedWhite"/>
-                                                                        <state key="normal" title="Button"/>
+                                                                        <state key="normal" title="Resturants"/>
                                                                         <connections>
                                                                             <segue destination="D6Z-3d-otg" kind="push" id="kWR-ZO-ysb"/>
                                                                         </connections>
                                                                     </button>
                                                                     <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="asq-Uw-SSq">
-                                                                        <rect key="frame" x="0.0" y="374" width="187" height="187"/>
+                                                                        <rect key="frame" x="0.0" y="377" width="189" height="189"/>
                                                                         <color key="backgroundColor" red="0.99965607739999995" green="1" blue="0.59947368779999999" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
                                                                         <constraints>
                                                                             <constraint firstAttribute="width" secondItem="asq-Uw-SSq" secondAttribute="height" multiplier="1:1" id="8rX-k8-EgY"/>
                                                                         </constraints>
-                                                                        <state key="normal" title="Button"/>
+                                                                        <state key="normal" title="Small Eats"/>
                                                                         <connections>
                                                                             <segue destination="HRq-fK-tgp" kind="push" id="3Xy-GD-qIV"/>
                                                                         </connections>
@@ -105,37 +105,37 @@
                                                                 </subviews>
                                                             </stackView>
                                                             <stackView opaque="NO" contentMode="scaleToFill" axis="vertical" translatesAutoresizingMaskIntoConstraints="NO" id="5wB-Ik-fJL">
-                                                                <rect key="frame" x="187" y="0.0" width="187" height="561"/>
+                                                                <rect key="frame" x="189" y="5" width="185" height="556"/>
                                                                 <subviews>
                                                                     <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="LxQ-1e-01y">
-                                                                        <rect key="frame" x="0.0" y="0.0" width="187" height="187"/>
+                                                                        <rect key="frame" x="0.0" y="0.0" width="185" height="185"/>
                                                                         <color key="backgroundColor" red="0.91982052400000003" green="1" blue="0.96820321600000003" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
                                                                         <constraints>
                                                                             <constraint firstAttribute="width" secondItem="LxQ-1e-01y" secondAttribute="height" multiplier="1:1" id="PoD-iP-mMT"/>
                                                                         </constraints>
-                                                                        <state key="normal" title="Button"/>
+                                                                        <state key="normal" title="Markets"/>
                                                                         <connections>
                                                                             <segue destination="89V-zX-jXi" kind="push" id="ar3-qj-VvI"/>
                                                                         </connections>
                                                                     </button>
                                                                     <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="UMz-aF-cL7">
-                                                                        <rect key="frame" x="0.0" y="187" width="187" height="187"/>
+                                                                        <rect key="frame" x="0.0" y="185" width="185" height="186"/>
                                                                         <color key="backgroundColor" red="0.84705882349999995" green="0.84705882349999995" blue="0.84705882349999995" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
                                                                         <constraints>
                                                                             <constraint firstAttribute="width" secondItem="UMz-aF-cL7" secondAttribute="height" multiplier="1:1" id="PnO-Sk-Dhs"/>
                                                                         </constraints>
-                                                                        <state key="normal" title="Button"/>
+                                                                        <state key="normal" title="24/7 store"/>
                                                                         <connections>
                                                                             <segue destination="Tt7-r8-4R2" kind="push" id="kdS-A1-47o"/>
                                                                         </connections>
                                                                     </button>
                                                                     <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="K9Y-pD-YGo">
-                                                                        <rect key="frame" x="0.0" y="374" width="187" height="187"/>
+                                                                        <rect key="frame" x="0.0" y="371" width="185" height="185"/>
                                                                         <color key="backgroundColor" red="1" green="0.67751597090000004" blue="0.69606158039999999" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
                                                                         <constraints>
                                                                             <constraint firstAttribute="width" secondItem="K9Y-pD-YGo" secondAttribute="height" multiplier="1:1" id="DFK-L6-l30"/>
                                                                         </constraints>
-                                                                        <state key="normal" title="Button"/>
+                                                                        <state key="normal" title="pharmacy"/>
                                                                         <connections>
                                                                             <segue destination="1cI-8T-O1p" kind="push" id="Haq-iq-Cc2"/>
                                                                         </connections>
@@ -726,7 +726,7 @@
                                 <rect key="frame" x="0.0" y="28" width="414" height="44"/>
                                 <autoresizingMask key="autoresizingMask"/>
                                 <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" tableViewCell="3y8-pX-cxH" id="FpH-HQ-Io8">
-                                    <rect key="frame" x="0.0" y="0.0" width="414" height="44"/>
+                                    <rect key="frame" x="0.0" y="0.0" width="414" height="43"/>
                                     <autoresizingMask key="autoresizingMask"/>
                                     <subviews>
                                         <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Label" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="BKF-ty-kra">
@@ -880,7 +880,7 @@
         <scene sceneID="O6l-xQ-AIs">
             <objects>
                 <navigationController id="evw-cI-rE1" customClass="NavigationViewController" customModule="Relay_3_0" customModuleProvider="target" sceneMemberID="viewController">
-                    <navigationBar key="navigationBar" contentMode="scaleToFill" misplaced="YES" id="Py0-K5-CH6">
+                    <navigationBar key="navigationBar" contentMode="scaleToFill" id="Py0-K5-CH6">
                         <rect key="frame" x="0.0" y="0.0" width="375" height="44"/>
                         <autoresizingMask key="autoresizingMask"/>
                     </navigationBar>

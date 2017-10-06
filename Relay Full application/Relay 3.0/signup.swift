@@ -22,7 +22,7 @@ class signup: UIViewController, UITextFieldDelegate {
     @IBOutlet var userconfirmpasswordtextfield: UITextField!
     @IBOutlet var phonenumbertextfield: UITextField!
     let signup_url = "http://35.186.159.173/register.php"
-    let detail : String = "relay00001bizcanteen"
+    //let detail : String = "relay00001bizcanteen"
     let date = Date()
     let format = DateFormatter()
     
@@ -71,7 +71,7 @@ class signup: UIViewController, UITextFieldDelegate {
 
     // get details from input and ensure that infomation is of the right format
     @IBAction func create(_ sender: Any) {
-        let iden = detail.index((detail.startIndex)!, offsetBy: 5 )
+       // let iden = detail.index((detail.startIndex)!, offsetBy: 5 )
       
         let useremail = useremailtextfield.text;
         let userpassword = userpasswordtextfield.text;
